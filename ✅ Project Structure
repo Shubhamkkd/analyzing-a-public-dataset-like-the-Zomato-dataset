@@ -1,0 +1,14 @@
+analyzing-zomato-dataset/
+│
+├── data/
+│   └── zomato.csv                   # Original or cleaned dataset
+│
+├── notebooks/
+│   └── data_preprocessing.ipynb     # Jupyter notebook with all steps
+│
+├── visuals/
+│   └── summary_charts.png           # Initial visualizations (bar, hist, etc.)
+│
+├── README.md                        # Project overview & instructions
+├── requirements.txt                 # Required Python libraries
+└── .gitignore                       # Files to ignore in Git
