@@ -1,0 +1,36 @@
+# 🍽️ Zomato Dataset Visualization Project
+
+## 🎯 Objective
+To extract, analyze, and visualize insights from the Zomato dataset using appropriate and interactive charts. This project helps users explore cuisine preferences, pricing patterns, and restaurant distributions across Indian cities.
+
+---
+
+## ✅ Create Meaningful Visualizations
+
+### 📊 Selection of Chart Types
+
+| Chart Type        | Purpose                                                 | Example                                   |
+|-------------------|----------------------------------------------------------|-------------------------------------------|
+| **Bar/Column**     | Compare categories                                       | Top-rated cuisines by city                |
+| **Pie/Donut**      | Show proportions                                          | Cuisine distribution                      |
+| **Scatter Plot**   | Show correlations                                        | Rating vs Cost                             |
+| **Line Chart**     | Display trends over time                                | Monthly orders (hypothetical/extended)    |
+| **Heatmap**        | Highlight intensity in two variables                    | Average rating by city                    |
+| **Map**            | Show geographic distribution                            | Restaurant density across India           |
+
+---
+
+## 🛠️ Tools & Technologies
+
+| Tool         | Purpose                              |
+|--------------|--------------------------------------|
+| **Python**   | Data Cleaning, Pandas, Seaborn, etc. |
+| **Plotly**   | Interactive visualizations            |
+| **Matplotlib**| Basic charts and saving plots       |
+| **Tableau / Power BI** | Optional, advanced visuals |
+| **Jupyter**  | Code notebooks                        |
+
+---
+
+## 📁 Project Structure
+
