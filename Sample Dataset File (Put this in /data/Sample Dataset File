@@ -1,0 +1,5 @@
+restaurant_name,cuisines,average_cost_for_two,aggregate_rating,votes,online_order,city
+The Great Indian Dhaba,North Indian,300,4.1,500,Yes,Delhi
+Chinese Bowl,Chinese,250,3.9,220,No,Bangalore
+Pizza Hub,Fast Food,450,4.3,780,Yes,Mumbai
+...
