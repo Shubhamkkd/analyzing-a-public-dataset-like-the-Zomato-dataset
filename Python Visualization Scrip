@@ -1,0 +1,28 @@
+# Import libraries
+import pandas as pd
+import plotly.express as px
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Load the dataset
+df = pd.read_csv('../data/cleaned_zomato.csv')
+
+# --- Top Cuisines Bar Chart ---
+top_cuisines = df['cuisines'].value_counts().nlargest(10)
+top_cuisines.plot(kind='bar', color='salmon', title='Top 10 Cuisines')
+plt.xlabel("Cuisine Type")
+plt.ylabel("Count")
+plt.tight_layout()
+plt.savefig('../images/top_cuisines.png')
+plt.show()
+
+# --- Pie Chart: Online Ordering ---
+online_order = df['online_order'].value_counts()
+fig = px.pie(online_order, values=online_order.values, names=online_order.index,
+             title='Online Ordering Availability')
+fig.show()
+
+# --- Scatter Plot: Cost vs Rating ---
+fig2 = px.scatter(df, x='average_cost_for_two', y='aggregate_rating', color='city',
+                  hover_data=['restaurant_name'], title='Cost vs Rating')
+fig2.show()
