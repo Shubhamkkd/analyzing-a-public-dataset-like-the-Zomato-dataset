@@ -1,0 +1,40 @@
+
+---
+
+## 📋 Upload Checklist
+
+| File / Folder                      | Status         |
+|-----------------------------------|----------------|
+| `data/cleaned_zomato.csv`         | ✅ Uploaded     |
+| `code/visualization.ipynb`        | ✅ Uploaded     |
+| `images/` folder with charts      | ✅ Uploaded     |
+| `README.md`                       | ✅ Uploaded     |
+| `requirements.txt`                | ✅ Uploaded     |
+
+---
+
+## 📈 Key Visualizations in This Project
+
+- ✅ Bar Chart: **Top 10 cuisines**
+- ✅ Pie Chart: **Online ordering availability**
+- ✅ Scatter Plot: **Cost for two vs Aggregate Rating**
+- ✅ Heatmap: **Average Rating by City**
+- ✅ Bar Chart: **Restaurant Count per City**
+- 🗺️ (Optional) Map Plot: **Restaurant density (if location data provided)**
+
+---
+
+## 🧠 Insights Extracted
+
+- **North Indian, Fast Food, and Chinese** are the most dominant cuisines.
+- **Delhi NCR** leads in number of Zomato-listed restaurants.
+- Moderate pricing tends to correlate with higher ratings.
+- Many restaurants **do not offer online ordering**, indicating digital adoption gaps.
+
+---
+
+## 🖱️ How to Use
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/zomato-visualization-project.git
