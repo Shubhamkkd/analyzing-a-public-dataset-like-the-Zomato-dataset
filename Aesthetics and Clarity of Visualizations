@@ -1,0 +1,22 @@
+We followed best practices to ensure that each visualization is clear, intuitive, and visually appealing, enabling effective data-driven storytelling.
+
+✅ Visual Design Principles Used:
+Consistent Color Schemes: Applied distinct, harmonious color palettes for each chart type (e.g., warm tones for cuisines, cool tones for cost/rating).
+
+Clear Titles & Labels: Every chart includes an informative title, axis labels, and legends to help users understand the data instantly.
+
+Readable Fonts & Layouts: Fonts are appropriately sized for readability, and white space is used to reduce clutter.
+
+Axis Scaling & Gridlines: Adjusted for precision — e.g., cost axis doesn’t start at zero if it misrepresents relationships.
+
+Tooltips (Interactive): Used in Plotly charts to allow hover-based exploration for deeper insights.
+
+Chart Size Optimization: Responsive layout ensures visualizations are viewable without scrolling/cropping.
+
+Annotations/Highlights: Key trends (like top cuisine or outlier cost values) are highlighted or commented.
+
+💡 Examples:
+Visualization	Aesthetic Feature	Clarity Feature
+Top Cuisines Bar Chart	Color-coded bars by cuisine type	Count labels, axis titles, sorted data
+Cost vs Rating Scatter	Transparent overlapping points	Interactive tooltips with city name
+Online Orders Pie Chart	Bold labels, clean slices	Legend for binary category (Yes/No)
