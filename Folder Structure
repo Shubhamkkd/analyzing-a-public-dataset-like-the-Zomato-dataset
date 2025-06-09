@@ -1,0 +1,5 @@
+├── data/              # Cleaned dataset
+├── code/              # Python visualization notebook
+├── images/            # Exported charts
+├── README.md          # Project summary and usage guide
+└── requirements.txt   # Python libraries used
