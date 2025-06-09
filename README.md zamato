@@ -1,0 +1,25 @@
+# 🍽️ Zomato Data Visualization Project
+
+## 📌 Project Objective
+The purpose of this project is to visualize key insights from the Zomato restaurant dataset. It focuses on cuisine popularity, cost vs rating, city-wise trends, and online ordering patterns. The aim is to communicate data clearly and interactively.
+
+---
+
+## 📊 Visualizations
+
+| Chart Type     | Purpose                                |
+|----------------|----------------------------------------|
+| Bar Chart      | Top 10 cuisines                        |
+| Pie Chart      | Online ordering availability           |
+| Scatter Plot   | Relationship between cost and rating   |
+| City Bar Chart | Restaurant count by city               |
+
+All visualizations are available in the `/images` folder. Interactive versions can be viewed in the Jupyter notebook.
+
+---
+
+## 🖱️ How to Interact
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/zomato-visualization-project.git
+   cd zomato-visualization-project/code
