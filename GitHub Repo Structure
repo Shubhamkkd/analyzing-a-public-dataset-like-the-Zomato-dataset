@@ -1,0 +1,9 @@
+zomato-visualization-project/
+├── data/
+│   └── cleaned_zomato.csv
+├── code/
+│   └── visualization.ipynb
+├── images/
+│   └── charts.png
+├── README.md
+└── requirements.txt
